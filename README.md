@@ -1,15 +1,14 @@
-Prescripto – Full Stack Doctor Appointment Booking And Managment System
+Prescripto - Full Stack Medical Appointment System
 
-Prescripto is a full-stack web application designed to simplify healthcare by enabling patients to book doctor appointments and manage prescriptions. The platform provides separate interfaces for patients, doctors, and admins, ensuring a smooth and role-based experience for all users.
+Prescripto is a full-stack web application for booking doctor appointments and managing prescriptions. It includes separate interfaces for admin, doctors, and patients.
 
 Live Links
+Section	URL
+Frontend (Patients)	https://doctor-booking-management-system-js-1.onrender.com
 
-Frontend (Patients): https://doctor-booking-management-system-js-1.onrender.com
+Admin & Doctor Panel	https://doctor-booking-management-system-js-2.onrender.com
 
-Admin & Doctor Panel: https://doctor-booking-management-system-js-2.onrender.com
-
-Backend API: https://doctor-booking-management-system-js.onrender.com
-
+Backend API	https://doctor-booking-management-system-js.onrender.com
 Demo Credentials
 Admin Login
 
@@ -23,52 +22,46 @@ Email: amelia@prescripto.com
 
 Password: amelia@123
 
-Patient/User Login (via User Frontend)
+Patient/User Login
 
 Email: user@gmail.com
 
 Password: user@123
 
-Admin and Doctor share a common panel at:
-Admin & Doctor Panel
-
-Patients access the user portal at:
-Patient Frontend
-
 Features
 
-Secure login/signup for Patients, Doctors, and Admins
+Patient, Doctor, and Admin login/signup
 
-JWT-based authentication with role-based access control
+JWT-based authentication with role-based access
 
-Admin can approve/manage doctors, view users, and track appointments
+Admin can manage doctors and view appointments
 
-Doctors can manage availability and view booked appointments
+Doctors can manage availability and appointments
 
-Patients can browse doctors, book appointments, and view prescriptions
+Patients can book appointments and manage prescriptions
 
-Razorpay payment integration for appointment bookings
+Razorpay payment gateway integration
 
-Dashboard with key statistics and recent activities
+Admin dashboard with stats and recent activity
 
 Tech Stack
 
 Frontend: React.js (Vite)
 
-Backend: Node.js with Express
+Backend: Node.js, Express
 
-Database: MongoDB (Mongoose)
+Database: MongoDB
 
-Authentication: JWT (JSON Web Tokens)
+Authentication: JWT
 
-Payments: Razorpay Integration
+Payments: Razorpay
 
 Deployment: Render
 
 Notes
 
-Doctors must be approved by Admin before receiving appointments.
+Admin must approve doctors before they can receive appointments.
 
-Doctors and Admins share the same panel with role-based dashboards.
+Admin and Doctor share a common panel with different role-based views.
 
-Patients use a separate frontend to book and manage appointments.
+Patients use a separate frontend for booking and managing appointments.
