@@ -27,6 +27,7 @@ Prescripto is a full-stack web application for booking doctor appointments and m
 - Password: user@123
 
 > Admin and Doctor share a common panel at: https://doctor-booking-management-system-js-2.onrender.com
+
 > Patients access the user frontend at:https://doctor-booking-management-system-js-1.onrender.com
 
 ---
