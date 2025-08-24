@@ -57,60 +57,7 @@ Prescripto is a full-stack web application for booking doctor appointments and m
 
 
 
-## 📂 Folder Structure
 
-├── README.md
-│
-├── admin # Admin & Doctor panel (React + Vite + Tailwind)
-│ ├── src
-│ │ ├── components # Reusable UI components (Navbar, Sidebar, etc.)
-│ │ ├── context # React Contexts for global state
-│ │ │ ├── AdminContext.jsx # Manages admin-related state
-│ │ │ ├── DoctorContext.jsx # Manages doctor-related state
-│ │ │ └── AppContext.jsx # Shared app-wide context
-│ │ └── pages
-│ │ ├── Admin # Admin-specific pages
-│ │ │ ├── Dashboard.jsx # Admin dashboard
-│ │ │ ├── AddDoctor.jsx # Form for adding doctors
-│ │ │ └── Doctors.jsx # List & manage doctors
-│ │ └── Doctor # Doctor-specific pages
-│ │ ├── Dashboard.jsx # Doctor dashboard
-│ │ ├── Profile.jsx # Doctor profile management
-│ │ └── Appointments.jsx # View & manage appointments
-│ └── public # Static assets (favicon, logos, etc.)
-│
-├── backend # Backend API (Node.js + Express + MongoDB)
-│ ├── config
-│ │ ├── db.js # Database connection
-│ │ └── cloudinary.js # Cloudinary configuration
-│ ├── controllers # Request handlers
-│ │ ├── adminController.js # Admin-related APIs
-│ │ ├── doctorController.js # Doctor-related APIs
-│ │ └── userController.js # Patient-related APIs
-│ ├── middleware
-│ │ ├── authMiddleware.js # JWT authentication
-│ │ └── uploadMiddleware.js # File upload handling
-│ ├── models
-│ │ ├── User.js # User schema (patients/admins)
-│ │ ├── Doctor.js # Doctor schema
-│ │ └── Appointment.js # Appointment schema
-│ ├── routes
-│ │ ├── adminRoutes.js # Admin API routes
-│ │ ├── doctorRoutes.js # Doctor API routes
-│ │ └── userRoutes.js # Patient API routes
-│ └── server.js # Main Express server entry point
-│
-├── frontend # Patient-facing frontend (React + Vite + Tailwind)
-│ ├── src
-│ │ ├── components # Reusable UI (Navbar, Footer, DoctorCard, etc.)
-│ │ ├── context
-│ │ │ └── AppContext.jsx # Global state for patient app
-│ │ └── pages
-│ │ ├── Home.jsx # Homepage
-│ │ ├── Doctors.jsx # Browse doctors
-│ │ ├── Appointment.jsx # Book appointments
-│ │ └── Profile.jsx # User profile
-│ └── public # Static assets (favicon, logos, etc.)
 
 ## Notes
 
